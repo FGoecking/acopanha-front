@@ -1,0 +1,50 @@
+section{
+    width: 100%;
+    height: 120px;
+    background-color: #F2F602;
+    border-top:  solid 8px rgba(138, 21, 56, 1);
+    display: flex;
+    justify-content: center;
+}
+#header {
+    width:1280px;
+    height: 120px;
+    background-color: #F2F602;
+    display: flex;
+    justify-content: center;
+}
+#bloco-azul{
+    background-color: rgba(0, 90, 255, 1);
+    width: 700px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    
+}
+#bloco-verde{
+    background-color: rgba(0, 148, 65, 1);
+    width: 645px;
+    height: 120px;
+    
+}
+#fifa{
+    width: 160px;
+    height: 86px;
+}
+#brasil{
+    width: 70px;
+    height: 102px;
+}
+#esquerda{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#direita{
+    width:100% ;
+    display: flex;
+    justify-items: center;
+}
+
+
