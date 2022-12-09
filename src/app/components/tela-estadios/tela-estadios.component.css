@@ -9,6 +9,7 @@ body{
 .main-container{
     max-width:1000px ;
     margin: auto;
+    padding-top: 150px;
 }
 
 .paragrafos{

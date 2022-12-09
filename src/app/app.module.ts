@@ -10,6 +10,7 @@ import { TelaInicialComponent } from './components/tela-inicial/tela-inicial.com
 import { TelaGruposComponent } from './components/tela-grupos/tela-grupos.component';
 import { TelaFaleConoscoComponent } from './components/tela-fale-conosco/tela-fale-conosco.component';
 import { TelaEstadiosComponent } from './components/tela-estadios/tela-estadios.component';
+import { TelaVideoComponent } from './components/tela-video/tela-video.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TelaEstadiosComponent } from './components/tela-estadios/tela-estadios.
     TelaInicialComponent,
     TelaGruposComponent,
     TelaFaleConoscoComponent,
-    TelaEstadiosComponent
+    TelaEstadiosComponent,
+    TelaVideoComponent
   ],
   imports: [
     BrowserModule,
