@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Match } from 'src/app/classes/match';
+import { acopanha } from 'src/app/services/acopanha.service';
 
 @Component({
   selector: 'app-tela-grupos',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TelaGruposComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _acopanha: acopanha){}
 
-  ngOnInit(): void {
+  matchList:Match[];
+
+  ngOnInit(){
+    this._acopanha.getMatchs().subscribe(
+      data => 
+      {
+        this.matchList = data;
+      }
+    )
   }
 
 }

@@ -11,6 +11,9 @@ import { TelaGruposComponent } from './components/tela-grupos/tela-grupos.compon
 import { TelaFaleConoscoComponent } from './components/tela-fale-conosco/tela-fale-conosco.component';
 import { TelaEstadiosComponent } from './components/tela-estadios/tela-estadios.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { acopanha } from './services/acopanha.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,9 +27,11 @@ import { TelaEstadiosComponent } from './components/tela-estadios/tela-estadios.
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+    
   ],
-  providers: [],
+  providers: [acopanha],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

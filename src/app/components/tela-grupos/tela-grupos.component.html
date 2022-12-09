@@ -1,1 +1,21 @@
-<p>tela-grupos works!</p>
+<h2> Grupos </h2>
+<table>
+    <tr>
+        <th>Time da casa</th>
+        <th></th>
+        <th>Gols da casa</th>
+        <th>Time visitante</th>
+        <th></th>
+        <th>Gols visitante</th>
+        <th>Jogo finalizado</th>
+    </tr>
+    <tr *ngFor="let com of matchList">
+        <td>{{com.home_team_en}}</td>
+        <td><img src="{{com.home_flag}}" alt="home flag"></td>
+        <td>{{com.home_score}}</td>
+        <td>{{com.away_team_en}}</td>
+        <td><img src="{{com.away_flag}}" alt="home flag"></td>
+        <td>{{com.away_score}}</td>
+        <td>{{com.finished}}</td>  
+    </tr>
+</table>
