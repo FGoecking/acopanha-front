@@ -1,0 +1,19 @@
+#grupos{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    font-size: 18px;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: 
+}
+#textos{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+
+}
