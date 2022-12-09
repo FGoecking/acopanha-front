@@ -60,3 +60,8 @@ footer img{
     text-align: end;
     color:red;
 }
+.liFotter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgba(0, 148, 65, 1);
+}
