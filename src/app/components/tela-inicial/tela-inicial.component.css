@@ -1,13 +1,14 @@
 #tela-inicial{
-    height: 1000px;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background:linear-gradient(
-        rgba(0, 148, 65, 1) 50%, 
+        rgba(0, 148, 65, 1) 50%, rgba(0, 90, 255, 1)
          50%);
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: -10px;
     }
 #largura{
     width: 1280px;
