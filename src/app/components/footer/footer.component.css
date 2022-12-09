@@ -9,7 +9,7 @@ footer img{
 }
 .main-container {
     border: 1px solid blue;
-    position: fixed;
+    
     display: flex;
     flex-direction: column;
     bottom: 0;
@@ -59,4 +59,9 @@ footer img{
     margin-right: 10%;
     text-align: end;
     color:red;
+}
+.liFotter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgba(0, 148, 65, 1);
 }

@@ -1,10 +1,15 @@
 #header{
+    margin-top: -10px;
+    top: inherit;
+    position: initial;
+    position: fixed;
     width: 100%;
     height: 120px;
     background-color: #F2F602;
     border-top:  solid 8px rgba(138, 21, 56, 1);
     display: flex;
     justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 #secao-interna {
     width:1280px;
@@ -53,7 +58,9 @@
 #nav-menu{
     height: 20px;
 }
-.texto-menu{
+
+a{
+    text-decoration: none;
     padding: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;

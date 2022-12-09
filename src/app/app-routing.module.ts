@@ -5,6 +5,7 @@ import { TelaEstadiosComponent } from './components/tela-estadios/tela-estadios.
 import { TelaFaleConoscoComponent } from './components/tela-fale-conosco/tela-fale-conosco.component';
 import { TelaGruposComponent } from './components/tela-grupos/tela-grupos.component';
 import { TelaInicialComponent } from './components/tela-inicial/tela-inicial.component';
+import { TelaVideoComponent } from './components/tela-video/tela-video.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'grupos', component: TelaGruposComponent },
   { path: 'fale-conosco', component: TelaFaleConoscoComponent },
-  { path: 'estadios', component: TelaEstadiosComponent }
+  { path: 'estadios', component: TelaEstadiosComponent },
+  { path: 'tela-video', component: TelaVideoComponent }
 ];
 
 @NgModule({

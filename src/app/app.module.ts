@@ -10,6 +10,7 @@ import { TelaInicialComponent } from './components/tela-inicial/tela-inicial.com
 import { TelaGruposComponent } from './components/tela-grupos/tela-grupos.component';
 import { TelaFaleConoscoComponent } from './components/tela-fale-conosco/tela-fale-conosco.component';
 import { TelaEstadiosComponent } from './components/tela-estadios/tela-estadios.component';
+import { TelaVideoComponent } from './components/tela-video/tela-video.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { acopanha } from './services/acopanha.service';
@@ -23,7 +24,8 @@ import { acopanha } from './services/acopanha.service';
     TelaInicialComponent,
     TelaGruposComponent,
     TelaFaleConoscoComponent,
-    TelaEstadiosComponent
+    TelaEstadiosComponent,
+    TelaVideoComponent
   ],
   imports: [
     BrowserModule,
